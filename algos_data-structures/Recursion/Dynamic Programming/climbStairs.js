@@ -36,8 +36,7 @@ const climbStairs = function(n) {
     return climbStairs(n - 2) + climbStairs(n - 1)
 };
 
-// Step #2 is to find memoize solution
-
+// Solve with dynamic progrmaming
 const climbStairs = function (n) {
     if (n < 2){
         return 1;
@@ -53,4 +52,3 @@ const climbStairs = function (n) {
     return fib[n];
 }
 
-// Step #3 solve with dynamic progrmaming
