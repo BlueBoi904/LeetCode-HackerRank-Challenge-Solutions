@@ -46,7 +46,7 @@ const climbStairs = function (n) {
     fib[0] = 1;
     fib[1] = 1;
 
-    for (let i = 2; i < n + 1; i++){
+    for (let i = 2; i <= n; i++){
         fib[i] = fib[i-2] + fib[i-1];
     }
     return fib[n];
