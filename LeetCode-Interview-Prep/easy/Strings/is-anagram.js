@@ -25,16 +25,3 @@ var isAnagram = function(s, t) {
 
 // Solve using data structure
 
-const isAnagram = function(s,t){
-    if (s.length !== t.length){
-        return false;
-    } 
-
-    let counts = [];
-
-    for (let i = 0; i < s.length; i++){
-        counts[s.charAt(i) - 'a']++;
-    }
-
-}
-
